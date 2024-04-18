@@ -1,0 +1,109 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    color      : #334e64;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.profile-container {
+    width:500px !important;
+    position        : relative;
+    background-color: #fff;
+    width           : 350px;
+    padding         : 100px 50px 40px;
+    margin          : 35px 5px 20px 10px;
+    border-radius   : 12px;
+    box-shadow      : 0 0 60px 5px rgba(0, 0, 0, 0.2);
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : center;
+}
+
+.img-container {
+    width        : 130px;
+    height       : 130px;
+    overflow     : hidden;
+    border       : 5px solid #fd7e14;
+    border-radius: 50%;
+    box-shadow   : 0 8px 55px #fd7e14;
+    position     : absolute;
+    top          : 30px;
+    left         : 50%;
+    transform    : translate(-50%, -50%);
+}
+
+.img-container img {
+    width    : 100%;
+    max-width: 100%;
+    transform: scale(1.1);
+}
+
+.info {
+    margin-bottom: 12px;
+}
+
+.info i {
+    margin-right: 8px;
+    font-size   : 1.1em;
+}
+
+.place {
+    margin-bottom: 40px;
+}
+
+.full-name {
+    font-size     : 1.4em;
+    font-weight   : bold;
+    letter-spacing: 1px;
+    color         : #fd7e14;
+}
+
+.posts-info {
+    width          : 100%;
+    display        : flex;
+    justify-content: space-around;
+    align-items    : center;
+    font-size      : 1.1em;
+    letter-spacing : 0.5px;
+    margin-bottom  : 30px;
+    text-align     : center;
+}
+
+.posts-info span {
+    display      : block;
+    font-weight  : bold;
+    margin-bottom: 4px;
+}
+
+
+
+.action {
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #d31258;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    width: 80%;
+    margin-top: 25px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.action.message {
+    background-color: #fd7e14;
+}
+
+.action:hover {
+    transform: scale(1.05);
+    opacity: 0.85;
+}
